@@ -1,0 +1,11 @@
+language: python
+
+services:
+  - docker
+
+addons:
+  artifacts: true
+
+script:
+  - docker-compose up
+
