@@ -6,6 +6,9 @@ services:
 addons:
   artifacts: true
 
+install:
+  - docker-compose build
+
 script:
   - docker-compose up
 
