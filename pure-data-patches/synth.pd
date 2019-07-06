@@ -1,0 +1,6 @@
+#N canvas 0 23 450 300 10;
+#X obj 102 142 outlet~;
+#X obj 124 81 osc~ 440;
+#X obj 176 141 outlet~;
+#X connect 1 0 0 0;
+#X connect 1 0 2 0;
