@@ -6,4 +6,4 @@ services:
     volumes:
       - "./pure-data-patches:/root/pure-data-patches"
       - "./recordings:/root/recordings"
-    command: pd -nogui pure-data-patches/main.pd
+    command: pd -nogui pure-data-patches/recording-harness.pd
